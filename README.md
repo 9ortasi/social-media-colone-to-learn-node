@@ -27,5 +27,6 @@ data base fiha esm lbase de donne eli sna3tha mouch l'utilisateur
 od5el dossier server
 >npm start
 
-dossier client:
-npm start
+7otou ye5dem w 7el terminal e5er
+od5el dossier dossier client:
+>npm run dev
