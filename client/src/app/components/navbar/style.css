@@ -1,0 +1,96 @@
+/* Username display */
+
+.username {
+  margin: 0px;
+
+    font-weight: bold;
+    font-size: 1rem;
+    color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+
+  }
+  
+  .logout-button {
+    margin: 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: flex; /* Match navbar layout */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100%; /* Ensure it matches other navbar items */
+}
+
+.logout-button:hover {
+    background-color: rgba(117, 153, 255, 0.5); /* Same hover color as nav links */
+    transform: scale(1.05);
+}
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3767ec;
+  padding: 1rem;
+  gap: 20px;
+  list-style: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 50px; /* Set a fixed height */  
+}
+
+.navItem {
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.2s ease;
+
+}
+
+.navItem {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+li{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+
+}
+.navItem:hover {
+  background-color: rgba(117, 153, 255, 0.5);
+  transform: scale(1.05);
+}
+
+/* Mobile-friendly Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    gap: 10px;
+    padding: 0.5rem;
+  }
+}

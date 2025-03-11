@@ -1,0 +1,103 @@
+/* Create Post Page Container */
+.createPostContainer {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form Styles */
+  .postForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .inputField {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: #3767ec;
+    outline: none;
+    box-shadow: 0 0 5px rgba(55, 103, 236, 0.5);
+  }
+  
+  textarea.inputField {
+    resize: vertical;
+    min-height: 120px;
+    padding-top: 12px;
+  }
+  
+  /* Error Message Styles */
+  .error {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  
+  /* Submit Button */
+  .submitButton {
+    padding: 12px 20px;
+    background-color: #3aa6ff;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #328ddf;
+    transform: scale(1.05);
+  }
+  
+  .submitButton:active {
+    transform: scale(1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .createPostContainer {
+      padding: 1rem;
+    }
+  
+    .inputField {
+      font-size: 0.95rem;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+  
