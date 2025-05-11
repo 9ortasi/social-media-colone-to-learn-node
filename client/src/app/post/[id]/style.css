@@ -1,0 +1,257 @@
+/* All Comments Container */
+/* All Comments and Form Container */
+.commenAndFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10%;
+    width: 100%; /* Make sure it takes up full width of the parent */
+    max-width: 500px; /* Set max width if needed */
+    margin: 0 auto; /* Centers the container horizontally */
+  }
+.allCommentsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  /* Single Comment */
+  .commentContainer {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 450px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow-wrap: break-word; /* Break long words or URLs */
+    word-wrap: break-word;     /* Older version of word-wrap */
+    white-space: normal;       /* Ensure normal wrapping */
+    word-break: break-word;    /* For handling long words without spaces */
+    box-sizing: border-box;  /* Ensure padding doesn't affect width calculation */
+    justify-content: space-between;
+  
+
+  }
+  
+  p{
+    word-wrap: break-word; /* Ensures long words or URLs break and wrap */
+    white-space: normal; /* Makes sure text is allowed to wrap */
+
+  }
+  .commentContainer:hover {
+    transform: scale(1.001);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Comment Form Container */
+  .commentFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  /* Comment Input Field */
+  .CommentField {
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .CommentField:focus {
+    border: 1px solid #3767ec;
+    box-shadow: 0 0 5px rgba(55, 103, 236, 0.3);
+  }
+  
+  /* Submit Button */
+  .submitComment {
+    padding: 10px 15px;
+    background-color: #3aa6ff;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submitComment:hover {
+    background-color: #328ddf;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .commentContainer {
+      width: 95%;
+    }
+  
+    .commentFormContainer {
+      width: 95%;
+    }
+  
+    .CommentField {
+      max-width: 100%;
+    }
+  }
+  
+  /* here i will put all the global style again*/
+  /* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3767ec;
+  padding: 1rem;
+  gap: 20px;
+  list-style: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navItem {
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navItem:hover {
+  background-color: rgba(117, 153, 255, 0.5);
+  transform: scale(1.05);
+}
+
+/* Mobile-friendly Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0.5rem;
+  }
+}
+
+/* Posts Container */
+.allPosts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Single Post */
+.singlePost {
+  width: 90%;
+  max-width: 600px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+
+
+/* Post Username */
+.postUsername {
+  background-color: #2f63f1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+/* Post Content */
+.postContent {
+  font-size: 1.5rem;
+  padding: 15px;
+  word-wrap: break-word;
+  color: #333;
+}
+
+/* Post Text */
+.postText {
+  padding: 15px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .singlePost {
+    width: 95%;
+  }
+
+  .postContent {
+    font-size: 1.2rem;
+  }
+
+  .postText {
+    font-size: 1rem;
+  }
+}
+
+
+/* Delete button */
+.commentContainer button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-left: 20px;
+}
+
+.commentContainer button:hover {
+  background: #cc0000;
+}
+.commentUsername{
+  font-weight: bold;
+}

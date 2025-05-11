@@ -1,0 +1,131 @@
+/* Full-page styling */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Login box */
+.login-container {
+  width: 420px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title */
+.login-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.login-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #1e3c72;
+  box-shadow: 0 0 5px rgba(30, 60, 114, 0.3);
+}
+
+/* Login button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: #1e3c72;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background: #163a70;
+}
+
+/* Footer text */
+.login-footer {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Link */
+.login-link {
+  color: #1e3c72;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.singlePostHover:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.singlePostHover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.likeButton {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.likeButton:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.likeCount {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
+
+.liked{
+  background-color: red;
+}
+.liked:hover{
+  background-color: #b30000; /* Darker blue on hover */
+}
+.likeSection{
+  padding:10px;
+  border-top:  2px solid black;;
+  display: flex;
+  align-items: center;
+  gap:10px;
+  justify-content: center;
+}
