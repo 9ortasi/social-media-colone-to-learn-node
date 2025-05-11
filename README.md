@@ -1,40 +1,72 @@
-od5el dossier client
->npm install
+# 📱 Social Media Clone
 
-od5el dossier server
->npm install
+A web application that replicates key features of a social media platform, including user authentication, posting, liking, and commenting. Designed to offer a user-friendly interface.
 
-esna3 base de donner w sammiha w 7otha te5dem 3la lport 3001
+## 🚀 Features
 
-----------------------------
-lvid hedha ywarik kifeh t5addem serveur mysql fel mac: https://www.youtube.com/watch?v=ODA3rWfmzg8&ab_channel=ProgrammingKnowledge
----------------------
-ken lport mehouch 3001 w ma3raftech tbadlou .
-emchi server/index.js
-ahabar ellouta etl9ani keteb app.listen(3001
-w badlha 7asba lport mte3ek
------------------
-od5el server/config/config.json
+- User authentication (login and registration)
+- Post creation, liking, and commenting
+- MySQL database integration for data storage
 
-tel9a hedha 
-  "development": {
-    "username": "root",
-    "password": "aa",
-    "database": "node_db",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-baddel lusername lesm lutilisateur elli sna3 lbase de donné
-normalment root
+## 🛠️ Tech Stack
 
-ken ma3meltech password 7ot just ""
+- **Frontend:** Next.js
+- **Backend:** Node.js
+- **Database:** MySQL
+- **Other:** REST APIs
 
-data base fiha esm lbase de donne eli sna3tha
+## 📷 Screenshots
 
------------------------------------
-od5el dossier server
->npm start
+> *(Include screenshots or GIFs here if you have them!)*
 
-7otou ye5dem w 7el terminal e5er
-od5el dossier dossier client:
->npm run dev
+
+
+## 📂 Project Structure
+
+/client → Frontend (Next.js)
+/server → Backend (Node.js, Express)
+
+
+## 🔧 Setup & Installation
+
+### 1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/smart-farm.git
+cd smart-farm
+```
+
+### 2.  Install dependencies
+
+
+#### Frontend
+```bash
+cd client
+npm install
+```
+#### Backend
+```bash
+cd .server
+npm install
+```
+
+### 3. Configure environment variables
+
+
+in the /server/config/config.json you will find the database config
+
+
+set it up according to your local Mysql server
+
+### 4.run
+
+#### Frontend
+```bash
+cd client
+npm run dev
+```
+#### Backend
+```bash
+cd .server
+npm start
+```
+
