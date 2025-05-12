@@ -17,7 +17,8 @@ A web application that replicates key features of a social media platform, inclu
 
 ## 📷 Screenshots
 
-![home]([https://github.com/user-attachments/assets/ad415eee-922c-45b3-b3c1-171bba2d9a44](https://drive.google.com/file/d/1lLuu00gvFeuC8CkKvsY3lbJU5ibu8MgP/view?usp=sharing))
+![media_clone](https://github.com/user-attachments/assets/15e2ae64-32d2-4aa3-ad17-732ed856f520)
+![single_post](https://github.com/user-attachments/assets/549ea45b-c874-405f-b8eb-0786337b9f42)
 
 
 
