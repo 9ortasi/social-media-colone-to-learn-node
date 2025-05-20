@@ -33,7 +33,7 @@ A web application that replicates key features of a social media platform, inclu
 
 ### 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/smart-farm.git
+git clone https://github.com/A-Guermazi/smart-farm.git
 cd smart-farm
 ```
 
